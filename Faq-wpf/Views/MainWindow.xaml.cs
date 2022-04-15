@@ -29,8 +29,24 @@ namespace Faq_wpf
         }
         private void Profile_Btn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/ProfilePage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/ProfilePage.xaml", UriKind.Relative));
+            }
         }
 
+        private void Users_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/ViewUsersPage.xaml", UriKind.Relative));
+            }
+        }
+
+        private void AvailableTasks_Btn_OnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Pages/AvailableTasksPage.xaml", UriKind.Relative));
+
+        }
     }
 }

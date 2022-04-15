@@ -53,3 +53,7 @@ C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\refint\Faq-
 C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Faq-wpf.pdb
 C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Faq-wpf.genruntimeconfig.cache
 C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\ref\Faq-wpf.dll
+C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\ViewUsersPage.g.cs
+C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\ViewUsersPage.baml
+C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\AvailableTasksPage.g.cs
+C:\Users\forda\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\AvailableTasksPage.baml

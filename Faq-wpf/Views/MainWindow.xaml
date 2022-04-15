@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Faq_wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="470" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="220"></ColumnDefinition>
@@ -57,7 +57,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-                
+                Click="Users_Btn_Click"
                 />
             <Button
                 x:Name="AvailableTasks_Btn"
@@ -68,7 +68,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-                
+                Click="AvailableTasks_Btn_OnClick"
                 />
             <Button
                 x:Name="GetTask_Btn"
