@@ -1,0 +1,140 @@
+﻿<Window x:Class="Faq_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Faq_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Frame 
+            x:Name="MainFrame"
+            Grid.Row="1"
+            Grid.Column="1"
+            Source=""
+            NavigationUIVisibility="Hidden">
+        </Frame>
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.RowSpan="2"
+            Background="#C0F0DF"
+        />
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Background="#BBE9D9"
+            />
+        <StackPanel
+            Grid.Row="1"
+            Grid.Column="0">
+            <Button
+                x:Name="Profile_Btn"
+                Content="Мой Профиль"
+                Margin="0 10 0 10"
+                Height="30"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                Click="Profile_Btn_Click"
+                />
+            <Button
+                x:Name="Users_Btn"
+                Content="Список пользователей"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="AvailableTasks_Btn"
+                Content="Список доступных задач"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="GetTask_Btn"
+                Content="Откликнуться на задачу"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="History_Btn"
+                Content="История"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="ChangeStatus_Btn"
+                Content="Изменить статус"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="FilterTasks_Btn"
+                Content="Фильтр"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="FindTasks_Btn"
+                Content="Найти задачу"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                
+                />
+            <Button
+                x:Name="SetTasks_Btn"
+                Content="Создать задачу"
+                Height="30"
+                Margin="0 0 0 10"
+                Background="#A5CFC0"
+                Foreground="White"
+                FontWeight="DemiBold"
+                FontSize="14"
+                />
+        </StackPanel>
+    </Grid>
+</Window>
