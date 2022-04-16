@@ -79,6 +79,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
+                Click="GetTask_Btn_Click"
                 
                 />
             <Button

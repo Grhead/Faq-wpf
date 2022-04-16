@@ -19,8 +19,9 @@ namespace Faq_wpf
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
+
+public partial class MainWindow : Window
+{
         public MainWindow()
         {
             InitializeComponent();
@@ -47,6 +48,11 @@ namespace Faq_wpf
         {
             MainFrame.Navigate(new Uri("Views/Pages/AvailableTasksPage.xaml", UriKind.Relative));
 
+        }
+
+        private void GetTask_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Pages/GetTaskPage.xaml", UriKind.Relative));
         }
     }
 }

@@ -1767,23 +1767,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\forda\\.nuget\\packages\\": {},
+    "C:\\Users\\gr604_mieol\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\forda\\source\\repos\\Faq-wpf\\Faq-wpf\\Faq-wpf.csproj",
+      "projectUniqueName": "C:\\Users\\gr604_mieol\\Source\\Repos\\Faq-wpf\\Faq-wpf\\Faq-wpf.csproj",
       "projectName": "Faq-wpf",
-      "projectPath": "C:\\Users\\forda\\source\\repos\\Faq-wpf\\Faq-wpf\\Faq-wpf.csproj",
-      "packagesPath": "C:\\Users\\forda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\forda\\source\\repos\\Faq-wpf\\Faq-wpf\\obj\\",
+      "projectPath": "C:\\Users\\gr604_mieol\\Source\\Repos\\Faq-wpf\\Faq-wpf\\Faq-wpf.csproj",
+      "packagesPath": "C:\\Users\\gr604_mieol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gr604_mieol\\Source\\Repos\\Faq-wpf\\Faq-wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\forda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gr604_mieol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1837,7 +1837,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

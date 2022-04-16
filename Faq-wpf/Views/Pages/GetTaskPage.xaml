@@ -1,0 +1,75 @@
+﻿<Page x:Class="Faq_wpf.Views.Pages.GetTaskPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Faq_wpf.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="580"
+      Title="GetTaskPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel 
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="30 10 0 0">
+            <TextBlock
+                Text="Доступные задачи"
+                FontWeight="DemiBold"
+                FontSize="14"
+                />
+            <ListBox
+                x:Name="TaskList"
+                BorderThickness="0"
+                Height="380">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock
+                                Text="{Binding StringFormat = Название - {0},Path = Title}"
+                                FontWeight="DemiBold"
+                                FontSize="14"
+                            />
+                            <TextBlock
+                                Text="{Binding StringFormat = Описание - {0},Path = Description}"
+                                FontWeight="DemiBold"
+                                FontSize="14"
+                            />
+                            <TextBlock
+                                Text="{Binding StringFormat = Статус - {0},Path = Status.Title}"
+                                FontWeight="DemiBold"
+                                FontSize="14"
+                            />
+                            <TextBlock
+                                x:Name="UserSetTextBlock"
+                                Text="{Binding StringFormat = Пользователь - {0},Path = UsersSet.FirstName}"
+                                FontWeight="DemiBold"
+                                FontSize="14"
+                            />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="1"
+            DataContext="{Binding item}">
+            <TextBlock
+                x:Name="qq"
+                Text="{Binding Title}"
+                />
+            <TextBlock
+                x:Name="TaskDescription"
+                Text="qweqweqweqweqweqwe"
+                />
+            <TextBlock
+                x:Name="TaskUserSet"
+                />
+        </StackPanel>
+    </Grid>
+</Page>

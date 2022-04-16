@@ -28,8 +28,7 @@ namespace Faq_wpf.Views.Pages
 
         private void ApplyButton_Click(object sender, RoutedEventArgs e)
         {
-            User user = Service.db.Users.FirstOrDefault(q =>
-                q.Login == LoginBox.Text && q.Password == PasswordBox.Text);
+            User user = Service.db.Users.FirstOrDefault(q => q.Login == LoginBox.Text && q.Password == PasswordBox.Text);
             if (user != null)
             {
                 Service.ClientSession = user;
