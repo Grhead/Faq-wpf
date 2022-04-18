@@ -20,14 +20,15 @@ namespace Faq_wpf
     /// Interaction logic for MainWindow.xaml
     /// </summary>
 
-public partial class MainWindow : Window
-{
+    public partial class MainWindow : Window
+    {
         public MainWindow()
         {
             InitializeComponent();
             Service.frame = MainFrame;
             MainFrame.Navigate(new Uri("Views/Pages/AuthPage.xaml", UriKind.Relative));
         }
+
         private void Profile_Btn_Click(object sender, RoutedEventArgs e)
         {
             if (Service.ClientSession.Login != null)
@@ -46,13 +47,27 @@ public partial class MainWindow : Window
 
         private void AvailableTasks_Btn_OnClick(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/AvailableTasksPage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/AvailableTasksPage.xaml", UriKind.Relative));
+            }
 
         }
 
         private void GetTask_Btn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/GetTaskPage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/GetTaskPage.xaml", UriKind.Relative));
+            }
+        }
+
+        private void History_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/HistoryPage.xaml", UriKind.Relative));
+            }
         }
     }
 }

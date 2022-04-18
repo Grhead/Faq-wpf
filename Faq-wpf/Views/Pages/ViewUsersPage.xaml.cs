@@ -26,7 +26,6 @@ namespace Faq_wpf.Views.Pages
         {
             InitializeComponent();
             UsersList.ItemsSource = ListOfUsersFromDb;
-            
         }
     }
 }

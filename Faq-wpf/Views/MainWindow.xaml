@@ -91,7 +91,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-                
+                Click="History_Btn_Click"
                 />
             <Button
                 x:Name="ChangeStatus_Btn"

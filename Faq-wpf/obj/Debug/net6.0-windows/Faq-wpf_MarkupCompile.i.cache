@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\
+C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\
 Faq_wpf
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\App.xaml
-6-1795190010
+C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\App.xaml
+7-2055080764
 
-15-40416612
-214-674550389
-Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
+16-1568141230
+214746910898
+Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\HistoryPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
 
 False
 

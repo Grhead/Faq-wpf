@@ -22,14 +22,30 @@ namespace Faq_wpf.Views.Pages
     /// </summary>
     public partial class GetTaskPage : Page
     {
-        public List<TaskX> ListOfTasksFromDb = new List<TaskX>(Service.db.TaskXes.Include(x => x.Status).Where(x => x.StatusId == 1));
-        public object item { get; set; }
+        public List<TaskX> ListOfTasksFromDb = new List<TaskX>(Service.db.TaskXes.Include(x => x.Status).Where(x => x.StatusId == 1).Include(x => x.UsersSet));
+        public TaskX a { get; set; }
 
         public GetTaskPage()
         {
             InitializeComponent();
             TaskList.ItemsSource = ListOfTasksFromDb;
-            item = TaskList.SelectedItem;
+        }
+
+        private void UserConfirmBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (UserGetAnswer.Text != "" && ListOfTasksFromDb.Count != 0)
+            {
+                string UserAnswer = UserGetAnswer.Text;
+                int UserSetAnswer = Service.ClientSession.Id;
+                TaskX temp = TaskList.SelectedItem as TaskX;
+                var ToPush = Service.db.TaskXes.FirstOrDefault(x => x.Title == temp.Title);
+                ToPush.UsersGetId = Service.ClientSession.Id;
+                ToPush.Answer = UserGetAnswer.Text;
+                ToPush.StatusId = 2;
+                Service.db.SaveChanges();
+                TaskList.ItemsSource = ListOfTasksFromDb;
+
+            }
 
         }
     }

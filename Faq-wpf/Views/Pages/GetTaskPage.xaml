@@ -25,7 +25,7 @@
             <ListBox
                 x:Name="TaskList"
                 BorderThickness="0"
-                Height="380">
+                Height="310">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
@@ -58,18 +58,53 @@
         <StackPanel
             Grid.Row="0"
             Grid.Column="1"
-            DataContext="{Binding item}">
+            DataContext="{Binding a}"
+            Margin="15 10 0 0">
             <TextBlock
-                x:Name="qq"
-                Text="{Binding Title}"
+                x:Name="TaskTitle"
+                Margin="15 0 0 0"
+                Text="{Binding ElementName=TaskList, Path=SelectedItem.Title}"
+                FontWeight="DemiBold"
+                FontSize="14"
                 />
             <TextBlock
                 x:Name="TaskDescription"
-                Text="qweqweqweqweqweqwe"
-                />
+                Margin="15 0 0 0"
+                Text="{Binding ElementName=TaskList, Path=SelectedItem.Description}"
+                FontWeight="DemiBold"
+                FontSize="14"
+            />
+            <TextBlock
+                x:Name="TaskDate"
+                Margin="15 0 0 0"
+                Text="{Binding ElementName=TaskList, Path=SelectedItem.Date}"
+                FontWeight="DemiBold"
+                FontSize="14"
+            />
             <TextBlock
                 x:Name="TaskUserSet"
-                />
+                Margin="15 0 0 0"
+                Text="{Binding ElementName=TaskList, Path=SelectedItem.UsersSet.Login}"
+                FontWeight="DemiBold"
+                FontSize="14"
+            />
+            <TextBox
+                Name="UserGetAnswer"
+                Margin="15 10 15 0 "
+                Height="150"
+                Width="235"
+                FontWeight="DemiBold"
+                FontSize="12"
+            />
+            <Button
+                Name="UserConfirmBtn"
+                Content="Отправить"
+                Height="25"
+                Margin="15 10 15 0"
+                FontWeight="DemiBold"
+                FontSize="14"
+                Click="UserConfirmBtn_Click"
+            />
         </StackPanel>
     </Grid>
 </Page>
