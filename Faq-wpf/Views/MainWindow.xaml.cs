@@ -71,5 +71,10 @@ namespace Faq_wpf
         {
             MainFrame.Navigate(new Uri("Views/Pages/ChangeStatusPage.xaml", UriKind.Relative));
         }
+
+        private void FilterTasks_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Pages/FilterPage.xaml", UriKind.Relative));
+        }
     }
 }
