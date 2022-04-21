@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\App.xaml
-9606187067
+10-1863940297
 
-171661617945
+18-1489292600
 214746910898
-Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\ChangeStatusPage.xaml;Views\Pages\FilterPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\HistoryPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
+Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\ChangeStatusPage.xaml;Views\Pages\FilterPage.xaml;Views\Pages\FindPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\HistoryPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
 
 False
 

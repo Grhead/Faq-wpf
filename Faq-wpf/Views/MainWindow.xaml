@@ -124,7 +124,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-                
+                Click="FindTasks_Btn_Click"
                 />
             <Button
                 x:Name="SetTasks_Btn"
@@ -135,6 +135,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
+
                 />
         </StackPanel>
     </Grid>

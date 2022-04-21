@@ -19,6 +19,9 @@
     <Compile Update="Views\Pages\FilterPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Pages\FindPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Pages\GetTaskPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -46,6 +49,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Pages\FilterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\FindPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Pages\GetTaskPage.xaml">
