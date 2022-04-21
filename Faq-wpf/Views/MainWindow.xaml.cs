@@ -16,16 +16,13 @@ using Faq_wpf.Models;
 
 namespace Faq_wpf
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
             Service.frame = MainFrame;
+            //InitialClass.Init();
             MainFrame.Navigate(new Uri("Views/Pages/AuthPage.xaml", UriKind.Relative));
         }
 

@@ -43,6 +43,7 @@ namespace Faq_wpf.Views.Pages
                 ToPush.Answer = UserGetAnswer.Text;
                 ToPush.StatusId = 2;
                 Service.db.SaveChanges();
+                ListOfTasksFromDb = new List<TaskX>(Service.db.TaskXes.Include(x => x.Status).Where(x => x.StatusId == 1).Include(x => x.UsersSet));
                 TaskList.ItemsSource = ListOfTasksFromDb;
 
             }

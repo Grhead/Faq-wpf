@@ -44,7 +44,13 @@
                             />
                             <TextBlock
                                 x:Name="UserSetTextBlock"
-                                Text="{Binding StringFormat = Пользователь - {0},Path = UsersSet.Password}"
+                                Text="{Binding StringFormat = Пользователь - {0},Path = UsersSet.Login}"
+                                FontWeight="DemiBold"
+                                FontSize="14"
+                            />
+                            <TextBlock
+                                x:Name="AnswerTextBlock"
+                                Text="{Binding StringFormat = Ответ - {0},Path = Answer}"
                                 FontWeight="DemiBold"
                                 FontSize="14"
                             />
