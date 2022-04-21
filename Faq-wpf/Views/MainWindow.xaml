@@ -102,7 +102,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-                
+                Click="ChangeStatus_Btn_Click"
                 />
             <Button
                 x:Name="FilterTasks_Btn"

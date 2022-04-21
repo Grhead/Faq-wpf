@@ -181,3 +181,5 @@ C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Faq-wpf.genrunti
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\ref\Faq-wpf.dll
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\HistoryPage.g.cs
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\HistoryPage.baml
+C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\ChangeStatusPage.g.cs
+C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\ChangeStatusPage.baml

@@ -13,6 +13,9 @@
     <Compile Update="Views\Pages\AvailableTasksPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Pages\ChangeStatusPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Pages\GetTaskPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Pages\AvailableTasksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\ChangeStatusPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Pages\GetTaskPage.xaml">

@@ -66,5 +66,10 @@ namespace Faq_wpf
                 MainFrame.Navigate(new Uri("Views/Pages/HistoryPage.xaml", UriKind.Relative));
             }
         }
+
+        private void ChangeStatus_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Pages/ChangeStatusPage.xaml", UriKind.Relative));
+        }
     }
 }
