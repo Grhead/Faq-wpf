@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\
+C:\Users\gr604_mieol\source\repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\
 Faq_wpf
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\App.xaml
-10-1863940297
+C:\Users\gr604_mieol\source\repos\Faq-wpf\Faq-wpf\App.xaml
+11-768971132
 
-20-862336877
-214746910898
-Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\ChangeStatusPage.xaml;Views\Pages\FilterPage.xaml;Views\Pages\FindPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\HistoryPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
+21962834404
+214-674550389
+Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\ChangeStatusPage.xaml;Views\Pages\CreateTaskPage.xaml;Views\Pages\FilterPage.xaml;Views\Pages\FindPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\HistoryPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
 
-False
+True
 

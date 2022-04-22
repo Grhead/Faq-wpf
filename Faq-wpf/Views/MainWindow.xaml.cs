@@ -81,5 +81,10 @@ namespace Faq_wpf
         {
             MainFrame.Navigate(new Uri("Views/Pages/FindPage.xaml", UriKind.Relative));
         }
+
+        private void SetTasks_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Pages/CreateTaskPage.xaml", UriKind.Relative));
+        }
     }
 }

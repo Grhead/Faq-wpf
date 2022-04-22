@@ -135,7 +135,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-
+                Click="SetTasks_Btn_Click"
                 />
         </StackPanel>
     </Grid>
