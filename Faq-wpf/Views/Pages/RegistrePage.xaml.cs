@@ -52,12 +52,13 @@ namespace Faq_wpf.Views.Pages
                     }
                     else
                     {
-                        MessageBox.Show("Login занят");
+                        MessageBox.Show("Вы не заполнили все поля");
                     }
             }
             else
             {
-                MessageBox.Show("Вы не заполнили все поля");
+                
+                MessageBox.Show("Login занят");
 
             }
         }

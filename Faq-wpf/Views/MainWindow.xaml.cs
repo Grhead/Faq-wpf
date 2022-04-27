@@ -119,5 +119,10 @@ namespace Faq_wpf
                 ExitBtn.Visibility = Visibility.Collapsed;
             }
         }
+
+        private void SetTasks_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Pages/CreateTaskPage.xaml", UriKind.Relative));
+        }
     }
 }

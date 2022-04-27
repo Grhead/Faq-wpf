@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\gr604_mieol\source\repos\Faq-wpf\Faq-wpf\App.xaml
-6-1795190010
+11-768971132
 
-13-667372335
+19335878681
 214-674550389
-Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
+Views\MainWindow.xaml;Views\Pages\AuthPage.xaml;Views\Pages\AvailableTasksPage.xaml;Views\Pages\ChangeStatusPage.xaml;Views\Pages\CreateTaskPage.xaml;Views\Pages\FilterPage.xaml;Views\Pages\FindPage.xaml;Views\Pages\GetTaskPage.xaml;Views\Pages\HistoryPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\ViewUsersPage.xaml;
 
 True
 

@@ -187,5 +187,20 @@ C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\Filt
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FilterPage.baml
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FindPage.g.cs
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FindPage.baml
+<<<<<<< HEAD
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\RegistrePage.g.cs
 C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\RegistrePage.baml
+=======
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\ChangeStatusPage.g.cs
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FilterPage.g.cs
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FindPage.g.cs
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\HistoryPage.g.cs
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\ChangeStatusPage.baml
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FilterPage.baml
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\FindPage.baml
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\HistoryPage.baml
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\CreateTaskPage.g.cs
+C:\Users\gr604_mieol\Source\Repos\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\CreateTaskPage.baml
+>>>>>>> 52290eb60e25f975d0e59709ef95069b698dd5c5
+C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\CreateTaskPage.g.cs
+C:\Users\forda\Desktop\Faq-wpf\Faq-wpf\obj\Debug\net6.0-windows\Views\Pages\CreateTaskPage.baml
