@@ -15,6 +15,7 @@
             <RowDefinition Height="50"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+        
         <Frame 
             x:Name="MainFrame"
             Grid.Row="1"
@@ -34,6 +35,35 @@
             Grid.ColumnSpan="2"
             Background="#BBE9D9"
             />
+        <Button
+            x:Name="RegisterBtn"
+            Grid.Column="1"
+            Grid.Row="0"
+            Height="30"
+            Width="170"
+            HorizontalAlignment="Right"
+            Margin="0 0 40 0"
+            Background="#BBE9D9"
+            Content="Зарегистрироваться"
+            FontWeight="DemiBold"
+            FontSize="14"
+            BorderThickness="0"
+            Foreground="White"
+            Click="RegisterBtn_Click"/>
+        <Button
+            x:Name="ExitBtn"
+            Grid.Column="0"
+            Grid.Row="0"
+            Height="30"
+            Width="170"
+            HorizontalAlignment="Center"
+            Background="#BBE9D9"
+            Content="Выйти"
+            FontWeight="DemiBold"
+            FontSize="14"
+            BorderThickness="0"
+            Foreground="White"
+            Click="RegisterBtn_Click_1"/>
         <StackPanel
             Grid.Row="1"
             Grid.Column="0">
@@ -46,8 +76,7 @@
                 Foreground="White"
                 FontWeight="DemiBold"
                 FontSize="14"
-                Click="Profile_Btn_Click"
-                />
+                Click="Profile_Btn_Click"/>
             <Button
                 x:Name="Users_Btn"
                 Content="Список пользователей"

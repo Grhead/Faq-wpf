@@ -33,6 +33,11 @@ namespace Faq_wpf.Views.Pages
             {
                 Service.ClientSession = user;
                 Service.frame.Navigate(new ProfilePage());
+                ((MainWindow)Application.Current.MainWindow).RegisterBtn.Visibility = Visibility.Collapsed;
+            }
+            if (Service.ClientSession.Login != null)
+            {
+                ((MainWindow)Application.Current.MainWindow).ExitBtn.Visibility = Visibility.Visible;
             }
         }
     }

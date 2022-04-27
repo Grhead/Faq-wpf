@@ -30,7 +30,7 @@ namespace Faq_wpf.Views.Pages
         private void FindBtn_Click(object sender, RoutedEventArgs e)
         {
             var user = EnterLogin.Text;
-            var UserLoginGetId = ListOfUsersFromDb.FirstOrDefault(x => x.Login == user).Id;
+            var UserLoginGetId = ListOfUsersFromDb.FirstOrDefault(x => x.Login == user)?.Id;
             var UserLoginFind = ListOfTasksFromDb.Where(x => x.UsersGetId == UserLoginGetId).ToList();
             TaskList.ItemsSource = UserLoginFind;
         }

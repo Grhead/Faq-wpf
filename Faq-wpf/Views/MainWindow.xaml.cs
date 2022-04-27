@@ -24,6 +24,8 @@ namespace Faq_wpf
             Service.frame = MainFrame;
             //InitialClass.Init();
             MainFrame.Navigate(new Uri("Views/Pages/AuthPage.xaml", UriKind.Relative));
+            ExitBtn.Visibility = Visibility.Collapsed;
+            
         }
 
         private void Profile_Btn_Click(object sender, RoutedEventArgs e)
@@ -69,17 +71,53 @@ namespace Faq_wpf
 
         private void ChangeStatus_Btn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/ChangeStatusPage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/ChangeStatusPage.xaml", UriKind.Relative));
+            }
         }
 
         private void FilterTasks_Btn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/FilterPage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/FilterPage.xaml", UriKind.Relative));
+            }
         }
 
         private void FindTasks_Btn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/FindPage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/FindPage.xaml", UriKind.Relative));
+            }
+        }
+
+        private void RegisterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (Service.ClientSession.Login == null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/RegistrePage.xaml", UriKind.Relative));
+            }
+            else
+            {
+                RegisterBtn.Visibility = Visibility.Collapsed;
+            }
+        }
+
+        private void RegisterBtn_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/AuthPage.xaml", UriKind.Relative));
+                Service.ClientSession.Login = null;
+                ExitBtn.Visibility = Visibility.Visible;
+
+            }
+            else
+            {
+                ExitBtn.Visibility = Visibility.Collapsed;
+            }
         }
     }
 }
