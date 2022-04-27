@@ -110,19 +110,16 @@ namespace Faq_wpf
             if (Service.ClientSession.Login != null)
             {
                 MainFrame.Navigate(new Uri("Views/Pages/AuthPage.xaml", UriKind.Relative));
-                Service.ClientSession.Login = null;
-                ExitBtn.Visibility = Visibility.Visible;
-
-            }
-            else
-            {
-                ExitBtn.Visibility = Visibility.Collapsed;
+                Service.ClientSession = null;
             }
         }
 
         private void SetTasks_Btn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Views/Pages/CreateTaskPage.xaml", UriKind.Relative));
+            if (Service.ClientSession.Login != null)
+            {
+                MainFrame.Navigate(new Uri("Views/Pages/CreateTaskPage.xaml", UriKind.Relative));
+            }
         }
     }
 }
